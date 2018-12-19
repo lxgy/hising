@@ -1,0 +1,35 @@
+{
+	"index.html": {
+		"refer": [
+			"main.html",
+			"guide.html"
+		]
+	},
+	"guide.html": {
+		"refer": [
+			"main.html",
+			"login.html",
+			"account/login.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"regist.html"
+		]
+	},
+	"account/login.html": {
+		"resources": [
+			"/css/mui.min.css",
+			"/css/bootstrap.min.css"
+		],
+		"refer": [
+			"account/regist.html",
+			"account/find-password.html"
+		]
+	},
+	"account/regist.html": {
+		"refer": [
+			"account/autobiography.html"
+		]
+	}
+}
